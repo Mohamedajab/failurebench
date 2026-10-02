@@ -1,0 +1,23 @@
+{
+  "dataset": "energy",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 809,
+  "n_train": 384,
+  "n_tune": 153,
+  "n_cal": 115,
+  "n_test": 116,
+  "fit_seconds": 0.14090740005485713,
+  "prediction_seconds": 0.02276840014383197,
+  "total_seconds": 0.20647610002197325,
+  "dropped_feature_order": [
+    "X5",
+    "X4",
+    "X2",
+    "X1",
+    "X3",
+    "X7",
+    "X8",
+    "X6"
+  ]
+}

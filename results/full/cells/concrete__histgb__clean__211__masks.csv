@@ -1,0 +1,82 @@
+dataset,model,training_arm,seed,family,n_masks,alpha,method,feature_index,feature,coverage,width,n_test
+concrete,histgb,clean,211,all,9,0.1,clean_cp,-1,clean,0.9133333333333333,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,0,Cement (component 1)(kg in a m^3 mixture),0.6266666666666667,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,7,Age (day),0.5933333333333334,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.88,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,3,Water  (component 4)(kg in a m^3 mixture),0.7866666666666666,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.88,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.7866666666666666,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9066666666666666,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,clean_cp,2,Fly Ash (component 3)(kg in a m^3 mixture),0.88,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,-1,clean,0.9733333333333334,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,0,Cement (component 1)(kg in a m^3 mixture),0.72,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,7,Age (day),0.7333333333333333,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9333333333333333,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,3,Water  (component 4)(kg in a m^3 mixture),0.8533333333333334,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9533333333333334,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.8866666666666667,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.98,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,random_mask_cp,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9733333333333334,1.4083265219106864,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,-1,clean,0.9733333333333334,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,0,Cement (component 1)(kg in a m^3 mixture),0.72,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,7,Age (day),0.7266666666666667,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9333333333333333,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,3,Water  (component 4)(kg in a m^3 mixture),0.8533333333333334,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9466666666666667,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.8866666666666667,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9666666666666667,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,pooled_augmentation,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9733333333333334,1.3896075167036495,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,-1,clean,0.9133333333333333,1.0049997078821253,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,0,Cement (component 1)(kg in a m^3 mixture),0.84,1.9275363243966073,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,7,Age (day),0.8733333333333333,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.8866666666666667,1.0286797666600354,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,3,Water  (component 4)(kg in a m^3 mixture),0.8533333333333334,1.4018921248398941,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.92,1.2210728445399144,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.9266666666666666,1.5631006973500852,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9066666666666666,1.0750953734423234,150
+concrete,histgb,clean,211,all,9,0.1,mask_matched,2,Fly Ash (component 3)(kg in a m^3 mixture),0.92,1.113179550569428,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,-1,clean,0.9866666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,0,Cement (component 1)(kg in a m^3 mixture),0.8666666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,7,Age (day),0.8733333333333333,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9866666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,3,Water  (component 4)(kg in a m^3 mixture),0.94,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9866666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.9666666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9866666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,mask_envelope,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9866666666666667,2.0421617787351956,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,-1,clean,0.98,1.5130398586067861,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,0,Cement (component 1)(kg in a m^3 mixture),1.0,3.7928443314291567,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,7,Age (day),0.9733333333333334,3.2127824668375444,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9666666666666667,1.6286764745392417,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,3,Water  (component 4)(kg in a m^3 mixture),0.9933333333333333,3.0226061955035597,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9866666666666667,1.8457592215985366,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.98,2.964211037583417,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9866666666666667,1.5979421995717509,150
+concrete,histgb,clean,211,all,9,0.1,bonferroni,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9866666666666667,1.8127215422434109,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,-1,clean,0.9866666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,0,Cement (component 1)(kg in a m^3 mixture),0.9666666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,7,Age (day),0.9533333333333334,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9866666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,3,Water  (component 4)(kg in a m^3 mixture),0.9933333333333333,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9866666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.98,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9866666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,rowmax,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9866666666666667,2.8540567090143423,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,-1,clean,0.98,1.4961466865629527,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,0,Cement (component 1)(kg in a m^3 mixture),0.9866666666666667,3.3172433865014255,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,7,Age (day),1.0,3.7810193975631035,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9466666666666667,1.5745518448319205,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,3,Water  (component 4)(kg in a m^3 mixture),0.9733333333333334,2.4066787926388495,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9866666666666667,1.9226467215714729,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.9666666666666667,1.9360241672297416,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9866666666666667,1.6906906953246825,150
+concrete,histgb,clean,211,all,9,0.1,scaled_rowmax,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9866666666666667,1.8747204587758404,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,-1,clean,0.9866666666666667,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,0,Cement (component 1)(kg in a m^3 mixture),0.9333333333333333,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,7,Age (day),0.9333333333333333,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,4,Superplasticizer (component 5)(kg in a m^3 mixture),0.9866666666666667,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,3,Water  (component 4)(kg in a m^3 mixture),0.9866666666666667,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,6,Fine Aggregate (component 7)(kg in a m^3 mixture),0.9866666666666667,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,1,Blast Furnace Slag (component 2)(kg in a m^3 mixture),0.98,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,5,Coarse Aggregate  (component 6)(kg in a m^3 mixture),0.9866666666666667,2.458832541151425,150
+concrete,histgb,clean,211,all,9,0.1,policy_matched_shift,2,Fly Ash (component 3)(kg in a m^3 mixture),0.9866666666666667,2.458832541151425,150

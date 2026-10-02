@@ -1,0 +1,14 @@
+{
+  "datasets": ["diabetes", "concrete", "energy", "airfoil", "wine_red", "synthetic_linear", "synthetic_nonlinear"],
+  "models": ["ridge", "histgb"],
+  "training_arms": ["clean", "mask_augmented"],
+  "seeds": [101, 211, 307, 401, 503, 601, 701, 809, 907, 1009],
+  "alphas": [0.1, 0.05],
+  "family_sizes": [2, 4, "all"],
+  "split_fractions": [0.5, 0.2, 0.15, 0.15],
+  "scale_quantile": 0.75,
+  "scale_floor": 0.05,
+  "synthetic_n": 5000,
+  "bootstrap_replicates": 10000,
+  "threads": 4
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "wine_red",
+  "model": "ridge",
+  "training_arm": "clean",
+  "seed": 809,
+  "n_train": 679,
+  "n_tune": 272,
+  "n_cal": 204,
+  "n_test": 204,
+  "fit_seconds": 0.001806299900636077,
+  "prediction_seconds": 0.0019574000034481287,
+  "total_seconds": 0.04620260000228882,
+  "dropped_feature_order": [
+    "alcohol",
+    "volatile acidity",
+    "sulphates",
+    "citric acid",
+    "total sulfur dioxide",
+    "density",
+    "chlorides",
+    "fixed acidity",
+    "pH",
+    "free sulfur dioxide",
+    "residual sugar"
+  ]
+}

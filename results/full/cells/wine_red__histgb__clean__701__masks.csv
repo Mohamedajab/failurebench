@@ -1,0 +1,109 @@
+dataset,model,training_arm,seed,family,n_masks,alpha,method,feature_index,feature,coverage,width,n_test
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,-1,clean,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,10,alcohol,0.8872549019607843,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,1,volatile acidity,0.9117647058823529,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,9,sulphates,0.8970588235294118,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,2,citric acid,0.9019607843137255,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,7,density,0.8921568627450981,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,6,total sulfur dioxide,0.8921568627450981,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,4,chlorides,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,0,fixed acidity,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,8,pH,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,5,free sulfur dioxide,0.9117647058823529,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,clean_cp,3,residual sugar,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,-1,clean,0.9068627450980392,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,10,alcohol,0.8872549019607843,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,1,volatile acidity,0.9117647058823529,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,9,sulphates,0.9019607843137255,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,2,citric acid,0.9019607843137255,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,7,density,0.8970588235294118,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,6,total sulfur dioxide,0.8970588235294118,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,4,chlorides,0.9117647058823529,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,0,fixed acidity,0.9117647058823529,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,8,pH,0.9068627450980392,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,5,free sulfur dioxide,0.9117647058823529,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,random_mask_cp,3,residual sugar,0.9068627450980392,2.5603510772543103,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,-1,clean,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,10,alcohol,0.8872549019607843,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,1,volatile acidity,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,9,sulphates,0.8970588235294118,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,2,citric acid,0.9019607843137255,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,7,density,0.8921568627450981,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,6,total sulfur dioxide,0.8872549019607843,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,4,chlorides,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,0,fixed acidity,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,8,pH,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,5,free sulfur dioxide,0.9068627450980392,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,pooled_augmentation,3,residual sugar,0.9019607843137255,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,-1,clean,0.9068627450980392,2.529463036633148,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,10,alcohol,0.9166666666666666,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,1,volatile acidity,0.9117647058823529,2.5956719240194834,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,9,sulphates,0.9068627450980392,2.6013319060411146,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,2,citric acid,0.9019607843137255,2.5926755295291812,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,7,density,0.8921568627450981,2.5181522059178834,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,6,total sulfur dioxide,0.8921568627450981,2.5234012325525756,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,4,chlorides,0.8921568627450981,2.4838827189090695,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,0,fixed acidity,0.9166666666666666,2.581586353681681,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,8,pH,0.9068627450980392,2.554848329551119,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,5,free sulfur dioxide,0.9019607843137255,2.4668231686822333,204
+wine_red,histgb,clean,701,all,12,0.1,mask_matched,3,residual sugar,0.9068627450980392,2.5530136028978796,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,-1,clean,0.9313725490196079,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,10,alcohol,0.9166666666666666,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,1,volatile acidity,0.9215686274509803,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,9,sulphates,0.9215686274509803,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,2,citric acid,0.9264705882352942,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,7,density,0.9411764705882353,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,6,total sulfur dioxide,0.9362745098039216,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,4,chlorides,0.946078431372549,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,0,fixed acidity,0.9411764705882353,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,8,pH,0.9215686274509803,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,5,free sulfur dioxide,0.9313725490196079,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,mask_envelope,3,residual sugar,0.9264705882352942,2.8982208180888027,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,-1,clean,0.9852941176470589,4.4123270602902185,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,10,alcohol,1.0,5.346746894630852,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,1,volatile acidity,1.0,4.924666986860411,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,9,sulphates,1.0,5.275048449773265,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,2,citric acid,0.9950980392156863,4.447423883512493,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,7,density,1.0,4.8112908856597825,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,6,total sulfur dioxide,0.9901960784313726,4.360244516266525,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,4,chlorides,1.0,4.373816836225406,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,0,fixed acidity,0.9950980392156863,4.577267292959736,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,8,pH,0.9950980392156863,4.591396065177166,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,5,free sulfur dioxide,0.9950980392156863,4.471229543456755,204
+wine_red,histgb,clean,701,all,12,0.1,bonferroni,3,residual sugar,0.9852941176470589,4.4123270602902185,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,-1,clean,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,10,alcohol,0.9558823529411765,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,1,volatile acidity,0.9607843137254902,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,9,sulphates,0.9607843137254902,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,2,citric acid,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,7,density,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,6,total sulfur dioxide,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,4,chlorides,0.9705882352941176,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,0,fixed acidity,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,8,pH,0.9656862745098039,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,5,free sulfur dioxide,0.9607843137254902,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,rowmax,3,residual sugar,0.9558823529411765,3.334043182388559,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,-1,clean,0.9705882352941176,3.5810954704126625,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,10,alcohol,0.9607843137254902,3.4002399757648707,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,1,volatile acidity,0.9803921568627451,3.6007060466450347,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,9,sulphates,0.9803921568627451,3.6924513826710137,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,2,citric acid,0.9754901960784313,3.49243434495359,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,7,density,0.9656862745098039,3.328137894845474,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,6,total sulfur dioxide,0.9705882352941176,3.6581417846829396,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,4,chlorides,0.9705882352941176,3.2719155637506607,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,0,fixed acidity,0.9656862745098039,3.479840184765156,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,8,pH,0.9705882352941176,3.52056511053933,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,5,free sulfur dioxide,0.9705882352941176,3.5225630850153253,204
+wine_red,histgb,clean,701,all,12,0.1,scaled_rowmax,3,residual sugar,0.9705882352941176,3.454866694633263,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,-1,clean,0.9362745098039216,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,10,alcohol,0.9215686274509803,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,1,volatile acidity,0.9215686274509803,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,9,sulphates,0.9264705882352942,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,2,citric acid,0.9362745098039216,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,7,density,0.946078431372549,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,6,total sulfur dioxide,0.9411764705882353,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,4,chlorides,0.9509803921568627,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,0,fixed acidity,0.9509803921568627,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,8,pH,0.9264705882352942,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,5,free sulfur dioxide,0.9362745098039216,2.982842769412085,204
+wine_red,histgb,clean,701,all,12,0.1,policy_matched_shift,3,residual sugar,0.9264705882352942,2.982842769412085,204

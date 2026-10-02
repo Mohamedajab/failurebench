@@ -1,0 +1,20 @@
+{
+  "dataset": "airfoil",
+  "model": "ridge",
+  "training_arm": "clean",
+  "seed": 601,
+  "n_train": 751,
+  "n_tune": 301,
+  "n_cal": 225,
+  "n_test": 226,
+  "fit_seconds": 0.0038375998847186565,
+  "prediction_seconds": 0.0010817998554557562,
+  "total_seconds": 0.046316699823364615,
+  "dropped_feature_order": [
+    "frequency",
+    "displacement_thickness",
+    "chord",
+    "angle",
+    "velocity"
+  ]
+}

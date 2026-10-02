@@ -1,0 +1,23 @@
+{
+  "dataset": "concrete",
+  "model": "ridge",
+  "training_arm": "mask_augmented",
+  "seed": 601,
+  "n_train": 498,
+  "n_tune": 199,
+  "n_cal": 149,
+  "n_test": 150,
+  "fit_seconds": 0.002326600020751357,
+  "prediction_seconds": 0.0031096998136490583,
+  "total_seconds": 0.05888530006632209,
+  "dropped_feature_order": [
+    "Cement (component 1)(kg in a m^3 mixture)",
+    "Superplasticizer (component 5)(kg in a m^3 mixture)",
+    "Age (day)",
+    "Water  (component 4)(kg in a m^3 mixture)",
+    "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+    "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+    "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+    "Fly Ash (component 3)(kg in a m^3 mixture)"
+  ]
+}

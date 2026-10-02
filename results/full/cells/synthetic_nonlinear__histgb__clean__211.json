@@ -1,0 +1,25 @@
+{
+  "dataset": "synthetic_nonlinear",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 211,
+  "n_train": 2500,
+  "n_tune": 1000,
+  "n_cal": 750,
+  "n_test": 750,
+  "fit_seconds": 0.19186219992116094,
+  "prediction_seconds": 0.13520590006373823,
+  "total_seconds": 0.3972205000463873,
+  "dropped_feature_order": [
+    "x0",
+    "x4",
+    "x6",
+    "x3",
+    "x2",
+    "x5",
+    "x7",
+    "x8",
+    "x9",
+    "x1"
+  ]
+}

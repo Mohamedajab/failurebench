@@ -1,0 +1,23 @@
+{
+  "dataset": "energy",
+  "model": "ridge",
+  "training_arm": "clean",
+  "seed": 307,
+  "n_train": 384,
+  "n_tune": 153,
+  "n_cal": 115,
+  "n_test": 116,
+  "fit_seconds": 0.0025645000860095024,
+  "prediction_seconds": 0.0011667001526802778,
+  "total_seconds": 0.04638940002769232,
+  "dropped_feature_order": [
+    "X5",
+    "X4",
+    "X2",
+    "X1",
+    "X3",
+    "X7",
+    "X6",
+    "X8"
+  ]
+}

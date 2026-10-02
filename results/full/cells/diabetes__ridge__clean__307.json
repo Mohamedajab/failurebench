@@ -1,0 +1,25 @@
+{
+  "dataset": "diabetes",
+  "model": "ridge",
+  "training_arm": "clean",
+  "seed": 307,
+  "n_train": 221,
+  "n_tune": 88,
+  "n_cal": 66,
+  "n_test": 67,
+  "fit_seconds": 0.004545200150460005,
+  "prediction_seconds": 0.0012729000300168991,
+  "total_seconds": 0.07174660009332001,
+  "dropped_feature_order": [
+    "bmi",
+    "s5",
+    "bp",
+    "s4",
+    "s3",
+    "s6",
+    "s1",
+    "age",
+    "s2",
+    "sex"
+  ]
+}

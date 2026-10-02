@@ -1,0 +1,25 @@
+{
+  "dataset": "synthetic_linear",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 401,
+  "n_train": 2500,
+  "n_tune": 1000,
+  "n_cal": 750,
+  "n_test": 750,
+  "fit_seconds": 0.20461610006168485,
+  "prediction_seconds": 0.13829419994726777,
+  "total_seconds": 0.41001590015366673,
+  "dropped_feature_order": [
+    "x0",
+    "x1",
+    "x3",
+    "x6",
+    "x2",
+    "x4",
+    "x5",
+    "x9",
+    "x8",
+    "x7"
+  ]
+}

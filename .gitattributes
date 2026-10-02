@@ -1,0 +1,12 @@
+# Preserve exact artifact bytes so recorded SHA-256 hashes survive cloning.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Matplotlib's exported SVG paths contain intentional trailing spaces.
+*.svg -whitespace
+data/** -whitespace

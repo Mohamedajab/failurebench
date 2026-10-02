@@ -1,0 +1,22 @@
+{
+  "name": "diabetes",
+  "source": "scikit-learn packaged diabetes (Efron et al.)",
+  "url": "https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset",
+  "license": "see scikit-learn source and dataset attribution",
+  "original_rows": 442,
+  "rows": 442,
+  "features": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "removed_duplicate_predictor_rows": 0,
+  "data_sha256": "f9481a0aaf503dbf46e3faa55bb06750e7f0c645a2b348bd367fdd3f65f7cf63"
+}

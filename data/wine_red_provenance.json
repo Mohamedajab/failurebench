@@ -1,0 +1,26 @@
+{
+  "name": "wine_red",
+  "source": "UCI Machine Learning Repository",
+  "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+  "doi": "10.24432/C56S3T",
+  "license": "CC BY 4.0",
+  "raw_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+  "archive_member": "winequality-red.csv",
+  "original_rows": 1599,
+  "rows": 1359,
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "removed_duplicate_predictor_rows": 240,
+  "data_sha256": "0d88f4aeee142a7f0bc48aafec75c9ffaf160ac58c26c046098ae6d06f1921e7"
+}

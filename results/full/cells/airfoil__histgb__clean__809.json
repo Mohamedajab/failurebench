@@ -1,0 +1,20 @@
+{
+  "dataset": "airfoil",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 809,
+  "n_train": 751,
+  "n_tune": 301,
+  "n_cal": 225,
+  "n_test": 226,
+  "fit_seconds": 0.16791480011306703,
+  "prediction_seconds": 0.033399200066924095,
+  "total_seconds": 0.2546757999807596,
+  "dropped_feature_order": [
+    "frequency",
+    "displacement_thickness",
+    "chord",
+    "angle",
+    "velocity"
+  ]
+}

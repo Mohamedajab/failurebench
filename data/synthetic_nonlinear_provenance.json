@@ -1,0 +1,21 @@
+{
+  "name": "synthetic_nonlinear",
+  "source": "local controlled generator",
+  "license": "project MIT license",
+  "original_rows": 5000,
+  "rows": 5000,
+  "features": [
+    "x0",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9"
+  ],
+  "removed_duplicate_predictor_rows": 0,
+  "data_sha256": "7a8edf327ce838ea34f93541cb28a77a9e1b77b5571e8074fa6a1b839e5b4050"
+}

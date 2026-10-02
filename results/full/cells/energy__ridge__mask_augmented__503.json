@@ -1,0 +1,23 @@
+{
+  "dataset": "energy",
+  "model": "ridge",
+  "training_arm": "mask_augmented",
+  "seed": 503,
+  "n_train": 384,
+  "n_tune": 153,
+  "n_cal": 115,
+  "n_test": 116,
+  "fit_seconds": 0.0015120001044124365,
+  "prediction_seconds": 0.0009057000279426575,
+  "total_seconds": 0.041474200086668134,
+  "dropped_feature_order": [
+    "X5",
+    "X4",
+    "X2",
+    "X1",
+    "X3",
+    "X7",
+    "X6",
+    "X8"
+  ]
+}

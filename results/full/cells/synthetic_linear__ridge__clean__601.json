@@ -1,0 +1,25 @@
+{
+  "dataset": "synthetic_linear",
+  "model": "ridge",
+  "training_arm": "clean",
+  "seed": 601,
+  "n_train": 2500,
+  "n_tune": 1000,
+  "n_cal": 750,
+  "n_test": 750,
+  "fit_seconds": 0.0029570001643151045,
+  "prediction_seconds": 0.00853989995084703,
+  "total_seconds": 0.0658400000538677,
+  "dropped_feature_order": [
+    "x0",
+    "x1",
+    "x3",
+    "x6",
+    "x9",
+    "x4",
+    "x8",
+    "x2",
+    "x7",
+    "x5"
+  ]
+}

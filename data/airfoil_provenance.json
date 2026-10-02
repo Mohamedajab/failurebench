@@ -1,0 +1,20 @@
+{
+  "name": "airfoil",
+  "source": "UCI Machine Learning Repository",
+  "url": "https://archive.ics.uci.edu/static/public/291/airfoil+self+noise.zip",
+  "doi": "10.24432/C5VW2C",
+  "license": "CC BY 4.0",
+  "raw_sha256": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+  "archive_member": "airfoil_self_noise.dat",
+  "original_rows": 1503,
+  "rows": 1503,
+  "features": [
+    "frequency",
+    "angle",
+    "chord",
+    "velocity",
+    "displacement_thickness"
+  ],
+  "removed_duplicate_predictor_rows": 0,
+  "data_sha256": "c81f5682ec4c6190b48a305ece2e5fab6906f8fbb87f007a2a85fc2e6902d9d2"
+}

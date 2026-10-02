@@ -1,0 +1,7 @@
+numpy==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+matplotlib==3.10.6
+pytest==8.4.2
+xlrd==2.0.2
+openpyxl==3.1.5

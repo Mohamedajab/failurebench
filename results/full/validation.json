@@ -1,0 +1,17 @@
+{
+  "validated_metric_rows": 90720,
+  "checks": [
+    "expected complete factorial row count",
+    "unique cell keys",
+    "coverage bounds",
+    "original-row successes/counts",
+    "Wilson interval consistency",
+    "nonnegative widths",
+    "simultaneous no larger than worst fixed mask",
+    "oracle equals simultaneous coverage"
+  ],
+  "summary_rows": 9072,
+  "paired_comparisons": 168,
+  "raw_result_hashes_verified": true,
+  "analysis_source_sha256": "140de5bf6e2aeecdaea3ec143f133a7de7ceda8d8688008ddb7646257772b472"
+}

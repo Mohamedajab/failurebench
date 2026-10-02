@@ -1,0 +1,25 @@
+{
+  "dataset": "diabetes",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 701,
+  "n_train": 221,
+  "n_tune": 88,
+  "n_cal": 66,
+  "n_test": 67,
+  "fit_seconds": 0.13353569991886616,
+  "prediction_seconds": 0.01916750008240342,
+  "total_seconds": 0.21218509995378554,
+  "dropped_feature_order": [
+    "bmi",
+    "s5",
+    "s4",
+    "bp",
+    "s6",
+    "s3",
+    "s1",
+    "s2",
+    "age",
+    "sex"
+  ]
+}

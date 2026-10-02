@@ -1,0 +1,240 @@
+{
+  "started_utc": "2026-10-02T21:47:20.686517+00:00",
+  "status": "complete",
+  "config": {
+    "datasets": [
+      "diabetes",
+      "concrete",
+      "energy",
+      "airfoil",
+      "wine_red",
+      "synthetic_linear",
+      "synthetic_nonlinear"
+    ],
+    "models": [
+      "ridge",
+      "histgb"
+    ],
+    "training_arms": [
+      "clean",
+      "mask_augmented"
+    ],
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503,
+      601,
+      701,
+      809,
+      907,
+      1009
+    ],
+    "alphas": [
+      0.1,
+      0.05
+    ],
+    "family_sizes": [
+      2,
+      4,
+      "all"
+    ],
+    "split_fractions": [
+      0.5,
+      0.2,
+      0.15,
+      0.15
+    ],
+    "scale_quantile": 0.75,
+    "scale_floor": 0.05,
+    "synthetic_n": 5000,
+    "bootstrap_replicates": 10000,
+    "threads": 4
+  },
+  "config_sha256": "f0f4ac79768908f98a3bcb7d3c33c300c768aee38dd6e8fc3ea81d2c1b96a811",
+  "source_sha256": {
+    "failurebench\\__init__.py": "b3326889039ea35802815f7f9d63f51d7ed2c7074b4e99817c5b93ba324983a4",
+    "failurebench\\analyze.py": "3c0baa8441be683fc1c37b604d436e68a37cdf0ed562942c348466ea824ecf07",
+    "failurebench\\conformal.py": "9cbd039aa98241cbf0c0baab6566db9a4cc4cb1678189d06ff27144d2c563950",
+    "failurebench\\counterexample.py": "9351e9bbcd238ddbfadff521b1f3b0cefa56bfe5d16a6bc02d56b8f3e7390917",
+    "failurebench\\data.py": "fd62499fb05be386cc1d41eb6a58ad74798057abdd3bbe67b30e5fbbaa98c1ed",
+    "failurebench\\models.py": "4e9a9a0a221d7ab1b7b0a0002c2568dc0228f0ce9bd677fd48c6e1255ddfb989",
+    "failurebench\\run.py": "49be845c53b8e3627490e721e0a06e2d4fda806d880023f297ff937c2cce2981",
+    "protocol.md": "158327ab91dd56c4a5d9ee39eb8d4beb41cac0d3f55cec4630dc539f3580d7f6",
+    "requirements.txt": "dae177f71b32ba1c7bbb026afbeaebc52d44964ce902a28ba46cd281c8aafac9"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.3",
+  "sklearn": "1.7.2",
+  "smoke": false,
+  "environment": "cloudpickle==3.1.2\ncolorama==0.4.6\ncontourpy==1.4.0\ncycler==0.12.1\net_xmlfile==2.0.0\nfonttools==4.66.1\niniconfig==2.3.0\njoblib==1.6.0\nkiwisolver==1.5.1\nmatplotlib==3.10.6\nnumpy==2.3.3\nopenpyxl==3.1.5\npackaging==26.3\npillow==12.3.0\npluggy==1.6.0\nPygments==2.21.0\npyparsing==3.3.3\npytest==8.4.2\npython-dateutil==2.9.0.post0\nscikit-learn==1.7.2\nscipy==1.16.2\nsix==1.17.0\nthreadpoolctl==3.7.0\nxlrd==2.0.2\n",
+  "finished_utc": "2026-10-02T21:48:17.870399+00:00",
+  "elapsed_seconds": 57.184002000140026,
+  "completed_predictor_fits": 280,
+  "metric_rows": 90720,
+  "datasets": [
+    {
+      "name": "diabetes",
+      "source": "scikit-learn packaged diabetes (Efron et al.)",
+      "url": "https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset",
+      "license": "see scikit-learn source and dataset attribution",
+      "original_rows": 442,
+      "rows": 442,
+      "features": [
+        "age",
+        "sex",
+        "bmi",
+        "bp",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "removed_duplicate_predictor_rows": 0,
+      "data_sha256": "f9481a0aaf503dbf46e3faa55bb06750e7f0c645a2b348bd367fdd3f65f7cf63"
+    },
+    {
+      "name": "concrete",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/static/public/165/concrete+compressive+strength.zip",
+      "doi": "10.24432/C5PK67",
+      "license": "CC BY 4.0",
+      "raw_sha256": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+      "archive_member": "Concrete_Data.xls",
+      "original_rows": 1030,
+      "rows": 996,
+      "features": [
+        "Cement (component 1)(kg in a m^3 mixture)",
+        "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+        "Fly Ash (component 3)(kg in a m^3 mixture)",
+        "Water  (component 4)(kg in a m^3 mixture)",
+        "Superplasticizer (component 5)(kg in a m^3 mixture)",
+        "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+        "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+        "Age (day)"
+      ],
+      "removed_duplicate_predictor_rows": 34,
+      "data_sha256": "9aa6d6ea60c803db2ddeba6ff53baf0a6b205fd35a92946280814c7bd1aa1239"
+    },
+    {
+      "name": "energy",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/static/public/242/energy+efficiency.zip",
+      "doi": "10.24432/C51307",
+      "license": "CC BY 4.0",
+      "raw_sha256": "499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351",
+      "archive_member": "ENB2012_data.xlsx",
+      "original_rows": 768,
+      "rows": 768,
+      "features": [
+        "X1",
+        "X2",
+        "X3",
+        "X4",
+        "X5",
+        "X6",
+        "X7",
+        "X8"
+      ],
+      "removed_duplicate_predictor_rows": 0,
+      "data_sha256": "e4e5aa01d223560a788024f7b47176f4d690b30c15ed82580fe3bee74f392350"
+    },
+    {
+      "name": "airfoil",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/static/public/291/airfoil+self+noise.zip",
+      "doi": "10.24432/C5VW2C",
+      "license": "CC BY 4.0",
+      "raw_sha256": "5c7767ba53ad827d3f48ba1eb9434117f4892df8f10bc4c99e118a9e8a7ae07c",
+      "archive_member": "airfoil_self_noise.dat",
+      "original_rows": 1503,
+      "rows": 1503,
+      "features": [
+        "frequency",
+        "angle",
+        "chord",
+        "velocity",
+        "displacement_thickness"
+      ],
+      "removed_duplicate_predictor_rows": 0,
+      "data_sha256": "c81f5682ec4c6190b48a305ece2e5fab6906f8fbb87f007a2a85fc2e6902d9d2"
+    },
+    {
+      "name": "wine_red",
+      "source": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+      "doi": "10.24432/C56S3T",
+      "license": "CC BY 4.0",
+      "raw_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "archive_member": "winequality-red.csv",
+      "original_rows": 1599,
+      "rows": 1359,
+      "features": [
+        "fixed acidity",
+        "volatile acidity",
+        "citric acid",
+        "residual sugar",
+        "chlorides",
+        "free sulfur dioxide",
+        "total sulfur dioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol"
+      ],
+      "removed_duplicate_predictor_rows": 240,
+      "data_sha256": "0d88f4aeee142a7f0bc48aafec75c9ffaf160ac58c26c046098ae6d06f1921e7"
+    },
+    {
+      "name": "synthetic_linear",
+      "source": "local controlled generator",
+      "license": "project MIT license",
+      "original_rows": 5000,
+      "rows": 5000,
+      "features": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "x9"
+      ],
+      "removed_duplicate_predictor_rows": 0,
+      "data_sha256": "e24d14056d6ae048e64a448845e61556fcf5f0ddecc91ccb6a014900fe5e1612"
+    },
+    {
+      "name": "synthetic_nonlinear",
+      "source": "local controlled generator",
+      "license": "project MIT license",
+      "original_rows": 5000,
+      "rows": 5000,
+      "features": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "x9"
+      ],
+      "removed_duplicate_predictor_rows": 0,
+      "data_sha256": "7a8edf327ce838ea34f93541cb28a77a9e1b77b5571e8074fa6a1b839e5b4050"
+    }
+  ],
+  "result_sha256": {
+    "metrics.csv": "7fae3333e82496e046fc54898af6285c879210547a34fef1f5006dd930e8a24b",
+    "per_mask.csv": "360527917dc68f322d41d9940b2de40c2818126170c63f8be6a9c6707fef8272",
+    "runtime.csv": "9cad968bedd012da69457ebf88e0ce6c72d522b83c2e9ea1b9444af542d0819e"
+  }
+}

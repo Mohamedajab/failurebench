@@ -1,0 +1,23 @@
+{
+  "dataset": "concrete",
+  "model": "histgb",
+  "training_arm": "clean",
+  "seed": 701,
+  "n_train": 498,
+  "n_tune": 199,
+  "n_cal": 149,
+  "n_test": 150,
+  "fit_seconds": 0.19681929983198643,
+  "prediction_seconds": 0.03833309980109334,
+  "total_seconds": 0.29663460003212094,
+  "dropped_feature_order": [
+    "Cement (component 1)(kg in a m^3 mixture)",
+    "Age (day)",
+    "Superplasticizer (component 5)(kg in a m^3 mixture)",
+    "Water  (component 4)(kg in a m^3 mixture)",
+    "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+    "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+    "Fly Ash (component 3)(kg in a m^3 mixture)",
+    "Blast Furnace Slag (component 2)(kg in a m^3 mixture)"
+  ]
+}

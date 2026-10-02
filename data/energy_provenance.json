@@ -1,0 +1,23 @@
+{
+  "name": "energy",
+  "source": "UCI Machine Learning Repository",
+  "url": "https://archive.ics.uci.edu/static/public/242/energy+efficiency.zip",
+  "doi": "10.24432/C51307",
+  "license": "CC BY 4.0",
+  "raw_sha256": "499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351",
+  "archive_member": "ENB2012_data.xlsx",
+  "original_rows": 768,
+  "rows": 768,
+  "features": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8"
+  ],
+  "removed_duplicate_predictor_rows": 0,
+  "data_sha256": "e4e5aa01d223560a788024f7b47176f4d690b30c15ed82580fe3bee74f392350"
+}
