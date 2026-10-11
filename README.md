@@ -4,7 +4,8 @@
 
 This project contains working Python code, a frozen experiment protocol, public-source dataset provenance, tests, raw predictions, result tables, and figures. The manuscript has deliberately not been written.
 
-Start with [experiment results](results/full/RESULTS.md), then [the protocol](protocol.md), [literature audit](literature.md), and [mathematical notes](theory_notes.md). The max-score construction uses established conformal theory. The proposed contribution is an evaluation artifact; novelty and publication suitability remain unverified.
+Start with [experiment results](results/full/RESULTS.md), then [the protocol](protocol.md), [literature audit](literature.md), and [mathematical notes](theory_notes.md).
+For step-by-step reruns and provenance checks, see the [reproduction and evidence audit guide](REPRODUCIBILITY_GUIDE.md). The max-score construction uses established conformal theory. The proposed contribution is an evaluation artifact; novelty and publication suitability remain unverified.
 
 [walkthrough.ipynb](walkthrough.ipynb) contains a short executed Python walkthrough of the actual run and one saved experiment cell. Open it in Jupyter or a notebook-capable editor; the command-line experiment does not need Jupyter.
 
